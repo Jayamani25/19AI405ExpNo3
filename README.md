@@ -1,6 +1,6 @@
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
+<h3>Name: Jayamani R</h3>
+<h3>Register Number: 212222100014</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -15,6 +15,7 @@ The only catch here is that, unlike trees, graphs may contain cycles so that we 
 To do this, a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue, and the current-level nodes are marked visited and popped from the queue.
 Illustration:
 Let us understand the working of the algorithm with the help of the following example.
+  
 Step1: Initially queue and visited arrays are empty.
 </p>
 
@@ -22,12 +23,14 @@ Step1: Initially queue and visited arrays are empty.
 
 
 Queue and visited arrays are empty initially.
+
 Step2: Push node 0 into queue and mark it visited.
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/0e9ce012-8e1f-43d7-b7b9-c0fb19fe0c3f)
 
 
 Push node 0 into queue and mark it visited.
+
 Step 3: Remove node 0 from the front of queue and visit the unvisited neighbours and push them into queue.
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/67d8fa3b-ce9e-46c2-9dd7-089e204e667a)
